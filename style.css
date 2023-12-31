@@ -458,7 +458,7 @@ ul p{
 
 @media screen and (max-width: 1300px){
     .navbar {
-        height: 53px;
+        height: 33px;
         color: white;
         background-color: #0F1111;
         display: flex;
@@ -488,7 +488,7 @@ ul p{
     background-color: #91f6fe;
     /* background-color: #febd68; */
     height: 21px;
-    width: 145px;
+    width: 157px;
     border-radius: 4px;
     position: relative;
     left: 18px;
@@ -548,6 +548,7 @@ ul p{
         background-color: white;
         padding: 17px 0px 15px;
     }
+    .box-content2 h2{padding-left: 30px;}
     .box-content h2,.box-content2 h2{
         font-size: 0.6rem;
     }
@@ -598,31 +599,39 @@ ul p{
         height: 218px;
     }
     .footer-level3{
-        height: 65px;
+        height: 75px;gap: 3rem;
+        padding-top: 0px;
     }
 
     .footer-logo,.en{
-        left: 2rem;
+        left: 4rem;
+        bottom: 1rem;
     }
     
     .footer-box2,.footer-box3{
         display: none;
     }
     .footer-level4 {
-        height: 400px;
-        /* width: 80%; */
+        height: 903px;
+        width: 100%;
         background-color: #131A22;
         display: flex;
         flex-wrap: wrap;
-        /* justify-content: space-evenly; */
+        justify-content: space-evenly;
         align-items: centre;
-        padding-top: 0px; 
+        padding-top: 0px;
         padding-left: 0px;
-        padding-right: 0px; 
+        padding-right: 0px;
         overflow: hidden;
-        font-size: 3px;
+        font-size: 1px;
     }
-
+    .footer-level4 span{
+        font-size: 9px;
+    }
+    .footer-last{
+        position: static;
+        text-align: center;
+    }
     .panel-deals a{font-size: 0.4rem;}
 
 }
